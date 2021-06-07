@@ -18,7 +18,7 @@ def average_2D(list_2D):
         for value in row_value:
             total += value
 
-    average = total / (rows*columns)
+    average = total / (rows * columns)
 
     return average
 
