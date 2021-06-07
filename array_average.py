@@ -47,7 +47,7 @@ def main():
                 for loop_counter_rows in range(0, rows):
                     temp_column = []
                     for loop_counter_columns in range(0, columns):
-                        random_num = random.randint(0, 50)
+                        random_num = random.randint(0, 100)
                         temp_column.append(random_num)
                         print("{0} ".format(random_num), end="")
                     list_2D.append(temp_column)
